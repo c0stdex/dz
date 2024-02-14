@@ -6,6 +6,7 @@ def get_upcoming_birthdays(users):
 
     for user in users:
         
+        
         birthday = datetime.strptime(user["birthday"], "%Y.%m.%d").date()
 
         

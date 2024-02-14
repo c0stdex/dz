@@ -13,7 +13,14 @@ def get_numbers_ticket(minimum, maximum, quantity):
     return sorted(random_numbers)
 
 
+
+
 lottery_numbers = get_numbers_ticket(1, 49, 6)
 print("Ваші лотерейні числа:", lottery_numbers)
+
+
+
+
+
 
 

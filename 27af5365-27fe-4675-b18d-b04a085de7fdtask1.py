@@ -21,6 +21,8 @@ def get_days_from_today():
         return "Використовуйте 'РРРР-ММ-ДД'."
 
 
+
+
 result = get_days_from_today()
 
 if isinstance(result, int):
