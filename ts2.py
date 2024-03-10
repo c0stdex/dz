@@ -17,7 +17,7 @@ def get_cats_info(path):
     except Exception as e:
         print("An error occurred:", e)
     return cats_info
-
+ 
 
 cats_info = get_cats_info("path/to/cats_file.txt")
 print(json.dumps(cats_info, indent=4))

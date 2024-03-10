@@ -16,7 +16,7 @@ def change_contact(name, new_phone):
     if name in contacts:
         contacts[name] = new_phone
         return "Contact updated."
-    else:
+    else: 
         return "Contact not found."
 
 def show_phone(name): 

@@ -23,7 +23,7 @@ def total_salary(path):
 
     average_salary = total_salary / num_of_developers if num_of_developers > 0 else 0
     
-  
+   
     return total_salary, average_salary
 
 
